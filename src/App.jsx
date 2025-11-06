@@ -5,9 +5,9 @@ export default function App() {
   return (
     <div>
       <Header />
-      <main>
-        <h2>Main Content Area</h2>
-        <p>This is where the main content of the website will go.</p>
+      <main className="p-4 min-h-screen bg-white">
+        <h1 className="text-4xl">Corps de page</h1>
+        <p>BLABLA</p>
       </main>
       <Footer />
     </div>
